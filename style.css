@@ -899,11 +899,21 @@ body {
     position: relative;
     top: 0;
     height: auto;
-    padding: 24px;
+    padding: 24px 20px;
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
     align-items: center;
+  }
+
+  .sidebar-back {
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar-app-badge {
+    margin: 0;
+    width: 100%;
   }
 
   .legal-sidebar .sidebar-toc {
@@ -953,5 +963,17 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+  }
+
+  .card-body {
+    padding: 24px 20px;
+  }
+
+  .trust-bar {
+    padding: 20px 16px;
+  }
+
+  .trust-inner {
+    gap: 12px;
   }
 }
