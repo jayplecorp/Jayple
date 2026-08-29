@@ -111,6 +111,7 @@ export const teamData: {
       bio: "Helping Jayple communicate, connect, and build meaningful audience relationships.",
       photo: '/images/team/gouthem.webp',
       initials: 'GS',
+      linkedin: 'https://www.linkedin.com/in/rs-gouthem-a683422a4?utm_source=share_via&utm_content=profile&utm_medium=member_android',
     },
   ],
   engineering: [
@@ -167,7 +168,7 @@ export const teamData: {
       linkedin: 'https://www.linkedin.com/in/sanjai252289?utm_source=share_via&utm_content=profile&utm_medium=member_android',
     },
     {
-      name: 'Kishore Kannan D',
+      name: 'Kishore Kannan B',
       role: 'Partner Success',
       bio: "Supporting salon partners and helping build strong relationships across the Jayple ecosystem.",
       photo: '/images/team/kishore kannan.webp',
