@@ -388,7 +388,7 @@ export default function ExecutiveAndTeam() {
                                 alt={member.name}
                                 fill
                                 sizes="(max-width: 640px) 100vw, 200px"
-                                className="object-cover object-center transition-transform duration-300 group-hover:scale-105"
+                                className={`object-cover transition-transform duration-300 group-hover:scale-105 ${member.name.includes('Kishore') ? 'object-[50%_20%]' : 'object-center'}`}
                               />
                             </div>
                           ) : (
