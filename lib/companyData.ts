@@ -111,6 +111,7 @@ export const teamData: {
       bio: "Helping Jayple communicate, connect, and build meaningful audience relationships.",
       photo: '/images/team/gouthem.webp',
       initials: 'GS',
+      linkedin: 'https://www.linkedin.com/in/rs-gouthem-a683422a4?utm_source=share_via&utm_content=profile&utm_medium=member_android',
     },
   ],
   engineering: [
