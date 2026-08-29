@@ -167,7 +167,7 @@ export const teamData: {
       linkedin: 'https://www.linkedin.com/in/sanjai252289?utm_source=share_via&utm_content=profile&utm_medium=member_android',
     },
     {
-      name: 'Kishore Kannan D',
+      name: 'Kishore Kannan B',
       role: 'Partner Success',
       bio: "Supporting salon partners and helping build strong relationships across the Jayple ecosystem.",
       photo: '/images/team/kishore kannan.webp',
