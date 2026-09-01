@@ -84,7 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-DXKW8PXRYW"
+          src="https://www.googletagmanager.com/gtag/js?id=G-0S3SC9NGQP"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -93,7 +93,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-DXKW8PXRYW');
+            gtag('config', 'G-0S3SC9NGQP');
           `}
         </Script>
         <script
