@@ -5,7 +5,7 @@ import CompanyIntro from '@/components/homepage/CompanyIntro'
 import EcosystemOverview from '@/components/homepage/EcosystemOverview'
 import PeoplePreview from '@/components/homepage/PeoplePreview'
 import HomepageConnect from '@/components/homepage/HomepageConnect'
-import MobileCustomerRedirect from '@/components/MobileCustomerRedirect'
+import MobileAppEntryWrapper from '@/components/MobileAppEntryWrapper'
 import { companyData, teamData } from '@/lib/companyData'
 
 export const metadata: Metadata = {
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      {/* Mobile visitors are redirected to the Customer Web App */}
-      <MobileCustomerRedirect />
+      {/* Mobile visitors see the mobile app entry overlay */}
+      <MobileAppEntryWrapper />
 
       {/* 01 — CORPORATE HERO */}
       <CorporateHero />
